@@ -4,9 +4,9 @@ This repository contains the implementation of the paper "A novel dual-stream ti
 
 <img src="images/pretextttasks.PNG" width="80%" />
 Below the Dual-stream time-frequency framework with RP/TS and FS for the downstream task is shown.
-<img src="images/downb.PNG" width="70%" />
+<img src="images/downRP.PNG" width="70%" />
 
-<img src="images/downa.PNG" width="70%" />
+<img src="images/downTS.PNG" width="70%" />
 
 
 
