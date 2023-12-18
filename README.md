@@ -27,6 +27,12 @@ $ pip install -r requirements.txt
 ## Training and testing
 For end-to-end training and testing, you can use the [`main.py`](main.py) script, which combines the embeddings of RP and FS. The RP and FS pretext tasks are located in the pretext_tasks directory. In the [`combining_emb.py`](combining_emb.py) file, these features can be combined and provided as input for the downstream task, as well as for generating UMAP visualizations. The utilization of the stored models instead of training the model is also possible, and can be achieved in the [`pretext_tasks/RP.py`](pretext_tasks/RP.py) and [`pretext_tasks/similari_pick.py`](pretext_tasks/similari_pick.py) files respectively.
 
+## Contact
+
+If you have any questions or need further assistance, please don't hesitate to reach out via email:
+-    Sergio Kazatzidis: s.kazatzidis@gmail.com
+-    Siamak Mehrkanoon: s.mehrkanoon@uu.nl
+
 ## Citation
 If you use our data and code, please cite the paper using the following bibtex reference:
 ```
@@ -39,12 +45,6 @@ If you use our data and code, please cite the paper using the following bibtex r
       primaryClass={eess.SP}
 }
 ```
-## Contact
-
-If you have any questions or need further assistance, please don't hesitate to reach out via email:
--    Sergio Kazatzidis: s.kazatzidis@gmail.com
--    Siamak Mehrkanoon: s.mehrkanoon@uu.nl
-
 
 
 
